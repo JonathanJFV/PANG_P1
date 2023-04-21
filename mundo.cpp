@@ -53,7 +53,7 @@ void Mundo::dibuja()
 
 void Mundo::mueve()
 {
-	sphere2.mueve();
+	sphere2.mueve(); sphere3.mueve();
 }
 
 void Mundo::tecla(unsigned char key)
