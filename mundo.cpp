@@ -27,6 +27,10 @@ void Mundo::inicializa() //Se encarga de dar valores iniciales
 	sphere2.setRadio(2);
 	sphere2.setPos(3, 0);
 
+	sphere3.setColor(0, 0, 200);
+	sphere3.setPos(0, 5);
+	sphere3.setRadio(2);
+
 	polygon.setColor(255, 0, 0);
 	polygon.setPos(0, 0);
 	//polygon2.setColor(255, 255, 255);
@@ -44,6 +48,7 @@ void Mundo::dibuja()
 	polygon.dibuja();
 	//polygon2.dibuja();
 	torus.dibuja();
+	sphere3.dibuja();
 }
 
 void Mundo::mueve()
