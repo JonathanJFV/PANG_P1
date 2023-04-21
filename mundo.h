@@ -16,7 +16,7 @@ public:
 		void mueve();
 		void tecla(unsigned char key);
 
-		Esfera sphere, sphere2, sphere3;
+		Esfera sphere, sphere2;
 		Poligono polygon, polygon2;
 		Toro torus;
 };
